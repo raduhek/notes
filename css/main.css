@@ -1,0 +1,22 @@
+html, body, #main, .content-div {
+  overflow-y: hidden;
+  height: 100%;
+}
+
+div.content-div {
+  position: relative;
+}
+
+input.tabname {
+  width: initial;
+}
+
+#newtab {
+  position: absolute;
+  top: 4px;
+  right: 16px;
+}
+
+.indicator {
+  background-color: #039be5 !important;
+}

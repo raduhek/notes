@@ -1,0 +1,12 @@
+{
+  "name": "QuickNotes",
+  "version": "1.0",
+  "description": "Quickly take notes in Chrome's new tab page",
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
